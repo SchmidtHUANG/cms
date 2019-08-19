@@ -15,11 +15,11 @@
 -   `Endpoint`是调用的云服务的接入点，云监控的接入点是`metrics.aliyuncs.com`。各地域的服务地址，参见[云监控接入地址](#)。
 -   `Action`是要执行的操作，如使用DescribeMetricList接口查询某一实例的监控数据。
 -   `Version`要使用的API版本，云监控的API版本是2019-01-01。
--   `Parameters`是请求参数，每个参数之间用 & 分隔。请求参数由公共请求参数和API自定义参数组成。公共参数中包含API版本号、身份验证等信息。
+-   `Parameters`是请求参数，每个参数之间用&分隔。请求参数由公共请求参数和API自定义参数组成。公共参数中包含API版本号、身份验证等信息。
 
 下面是一个调用DescribeMetricList接口查询某一实例的监控数据的示例。
 
-``` {#codeblock_7ck_adr_l67}
+``` {#codeblock_sow_adc_4eu}
 http://metrics.cn-hangzhou.aliyuncs.com/?Action=DescribeMetricList
 &EndTime=2017-05-17+11%3A30%3A27
 &StartTime=2017-05-17+11%3A20%3A27
@@ -32,29 +32,27 @@ http://metrics.cn-hangzhou.aliyuncs.com/?Action=DescribeMetricList
 
 ## 云监控接入地址 {#section_xf3_lbv_zdb .section}
 
-|地域|服务地址|
-|:-|:---|
-|华东 1 \(杭州\)|metrics.cn-hangzhou.aliyuncs.com|
-|华东 2 \(上海\)|metrics.cn-shanghai.aliyuncs.com|
-|华北 1 \(青岛\)|metrics.cn-qingdao.aliyuncs.com|
-|华北 2 \(北京\)|metrics.cn-beijing.aliyuncs.com|
-|华南 1 \(深圳\)|metrics.cn-shenzhen.aliyuncs.com|
+|地域名称|服务地址|
+|:---|:---|
+|华北 1（青岛）|metrics.cn-qingdao.aliyuncs.com|
+|华北 2（北京）|metrics.cn-beijing.aliyuncs.com|
 |华北 3（张家口）|metrics.cn-zhangjiakou.aliyuncs.com|
-|香港|metrics.cn-hongkong.aliyuncs.com|
+|华北 5（呼和浩特）|metrics.cn-huhehaote.aliyuncs.com|
+|华东 1（杭州）|metrics.cn-hangzhou.aliyuncs.com|
+|华东 2（上海）|metrics.cn-shanghai.aliyuncs.com|
+|华南 1（深圳）|metrics.cn-shenzhen.aliyuncs.com|
+|中国香港|metrics.cn-hongkong.aliyuncs.com|
 |亚太东南 1（新加坡）|metrics.ap-southeast-1.aliyuncs.com|
+|亚太东南 2（悉尼）|metrics.ap-southeast-2.aliyuncs.com|
+|亚太东南 3（吉隆坡）|metrics.ap-southeast-3.aliyuncs.com|
+|亚太东南 5（雅加达）|metrics.ap-southeast-5.aliyuncs.com|
+|亚太南部 1（孟买）|metrics.ap-south-1.aliyuncs.com|
+|亚太东北 1（东京）|metrics.ap-northeast-1.aliyuncs.com|
 |美国西部 1（硅谷）|metrics.us-west-1.aliyuncs.com|
 |美国东部 1（弗吉尼亚）|metrics.us-east-1.aliyuncs.com|
 |欧洲中部 1（法兰克福）|metrics.eu-central-1.aliyuncs.com|
-|亚太东南 2（悉尼）|metrics.ap-southeast-2.aliyuncs.com|
-|中东东部 1（迪拜）|metrics.me-east-1.aliyuncs.com|
-|亚太东北 1（东京）|metrics.cn-hangzhou.aliyuncs.com|
-|亚太东南3（吉隆坡）|metrics.ap-southeast-3.aliyuncs.com|
-|华北 5（呼和浩特）|metrics.cn-huhehaote.aliyuncs.com|
-|亚太东南 5（雅加达）|metrics.ap-southeast-5.aliyuncs.com|
-|亚太南部 1 \(孟买\)|metrics.ap-south-1.aliyuncs.com|
 |英国（伦敦）|metrics.eu-west-1.aliyuncs.com|
-
-**说明：** 查询亚太东北 1（东京）地域的监控数据时，请使用华东 1 \(杭州\)的服务地址。
+|中东东部 1（迪拜）|metrics.me-east-1.aliyuncs.com|
 
 ## API授权 {#section_izn_wbv_zdb .section}
 
@@ -62,13 +60,13 @@ http://metrics.cn-hangzhou.aliyuncs.com/?Action=DescribeMetricList
 
 ## API签名 {#section_jzn_wbv_zdb .section}
 
-为保证API的安全调用，在调用API时阿里云会对每个API请求通过签名（Signature）进行身份验证。当您手动发起API请求时，需要按照[RFC 2104](https://www.ietf.org/rfc/rfc2104.txt?spm=a2c4g.11186623.2.6.tstgdp&file=rfc2104.txt)的定义，使用AccessSecret对编码、排序后的整个请求串计算HMAC值作为签名。更多详细信息，参见[RPC API签名](https://www.alibabacloud.com/help/doc-detail/66384.htm)。
+为保证API的安全调用，在调用API时阿里云会对每个API请求通过签名（Signature）进行身份验证。当您手动发起API请求时，需要按照[RFC 2104](https://www.ietf.org/rfc/rfc2104.txt?spm=a2c4g.11186623.2.6.tstgdp&file=rfc2104.txt)的定义，使用AccessSecret对编码、排序后的整个请求串计算HMAC值作为签名。更多详细信息，请参见[RPC API签名](https://help.aliyun.com/document_detail/66384.html)。
 
 RPC API要按如下格式在API请求的中增加签名（Signature）：
 
 `https://endpoint/?SignatureVersion=1.0&SignatureMethod=HMAC-SHA1&Signature=CT9X0VtwR86fNWSnsc6v8YGOjuE%3D&SignatureNonce=3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf`
 
-以DescribeMetricList为例，假设使用的AccessKey ID是`testid`， AccessKey Secret是 `testsecret`。那么签名前的请求URL为：
+以DescribeMetricList为例，如果使用的AccessKey ID是`testid`，AccessKey Secret是 `testsecret`，则签名前的请求URL为：
 
 ``` {#codeblock_vtx_6vo_9ef}
 http://metrics.aliyuncs.com/?Action=DescribeMetricList&period=60&StartTime=2016-03-22T11:30:27Z&Dimensions={instanceId:'i-abcdefgh123456'}&Timestamp=2017-03-23T06:59:55Z&Namespace=acs_ecs_dashboard&SignatureVersion=1.0&Format=JSON&SignatureNonce=aeb03861-611f-43c6-9c07-b752fad3dc06&Version=2015-10-20&AccessKeyId=TestId&MetricName=cpu_idle&SignatureMethod=HMAC-SHA1
