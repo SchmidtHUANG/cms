@@ -17,7 +17,7 @@ Description:
 
 The following example shows how to call DescribeMetricList to query the monitoring data of an instance.
 
-```
+``` {#codeblock_93g_t80_u5q}
 http://metrics.cn-hangzhou.aliyuncs.com/?Action=DescribeMetricList
 &EndTime=2017-05-17+11%3A30%3A27 
 &StartTime=2017-05-17+11%3A20%3A27 
@@ -38,7 +38,7 @@ http://metrics.cn-hangzhou.aliyuncs.com/?Action=DescribeMetricList
 |China \(Beijing\)|metrics.cn-beijing.aliyuncs.com|
 |China \(Shenzhen\)|metrics.cn-shenzhen.aliyuncs.com|
 |China \(Zhangjiakou-Beijing Winter Olympics\)|metrics.cn-zhangjiakou.aliyuncs.com|
-|Hong Kong|metrics.cn-hongkong.aliyuncs.com|
+|China \(Hong Kong\)|metrics.cn-hongkong.aliyuncs.com|
 |Singapore|metrics.ap-southeast-1.aliyuncs.com|
 |US \(Silicon Valley\)|metrics.us-west-1.aliyuncs.com|
 |US \(Virginia\)|metrics.us-east-1.aliyuncs.com|
@@ -51,8 +51,6 @@ http://metrics.cn-hangzhou.aliyuncs.com/?Action=DescribeMetricList
 |Indonesia \(Jakarta\)|metrics.ap-southeast-5.aliyuncs.com|
 |India \(Mumbai\)|metrics.ap-south-1.aliyuncs.com|
 |UK \(London\)|metrics.eu-west-1.aliyuncs.com|
-
-**Note:** When you call the APIs to query the monitoring data of Japan \(Tokyo\), use the endpoint of China \(Hangzhou\).
 
 ## API authorization {#section_izn_wbv_zdb .section}
 
@@ -68,25 +66,25 @@ For an RPC API, you must add the signature to the API request in the following f
 
 Take DescribeMetricList as an example. The AccessKey ID is `testid` and AccessKey Secret is `testsecret`. The original request URL is as follows:
 
-```
+``` {#codeblock_l8a_u3r_7sf}
 http://metrics.aliyuncs.com/?Action=DescribeMetricList&period=60&StartTime=2016-03-22T11:30:27Z&Dimensions={instanceId:'i-abcdefgh123456'}&Timestamp=2017-03-23T06:59:55Z&Namespace=acs_ecs_dashboard&SignatureVersion=1.0&Format=JSON&SignatureNonce=aeb03861-611f-43c6-9c07-b752fad3dc06&Version=2015-10-20&AccessKeyId=TestId&MetricName=cpu_idle&SignatureMethod=HMAC-SHA1
 ```
 
 The corresponding StringToSign is as follows:
 
-```
+``` {#codeblock_897_ko1_jjm}
 GET&%2F&AccessKeyId%3DTestId&Action%3DDescribeMetricList&Dimensions%3D%257B%2522instanceId%2522%253A%2522i-abcdefgh123456%2522%257D&Format%3DJSON&Metric%3Dcpu_idle&Period%3D60&Namespace%3Dacs_ecs_dashboard&SignatureMethod%3DHMAC-SHA1&SignatureNonce%3Daeb03861-611f-43c6-9c07-b752fad3dc06&SignatureVersion%3D1.0&StartTime%3D2016-03-22T11%253A30%253A27Z&Timestamp%3D2017-03-23T06%253A59%253A55Z&Version%3D2015-10-20
 ```
 
 AccessKey Secret is `testsecret`, so the key used for HMAC calculation is `testsecret&` and the calculated signature value is as follows:
 
-```
+``` {#codeblock_qsl_gy2_yaf}
 TLj49H/wqBWGJ7RK0r84SN5IDfM=
 ```
 
 Add the signature value as the Signature parameter to the request URL. The final URL is as follows:
 
-```
+``` {#codeblock_mo9_n5f_qxz}
 http://metrics.cn-hangzhou.aliyuncs.com/?Action=DescribeMetricList&StartTime=2016-03-22T11%3A30%3A27Z&Period=60&Dimensions=%7B%22instanceId%22%3A%22i-abcdefgh123456%22%7D&Timestamp=2017-03-23T06%3A59%3A55Z&Namespace=acs_ecs_dashboard&SignatureVersion=1.0&Format=JSON&SignatureNonce=aeb03861-611f-43c6-9c07-b752fad3dc06&Version=2015-10-20&AccessKeyId=TestId&Metric=cpu_idle&SignatureMethod=HMAC-SHA1&Signature=TLj49H%2FwqBWGJ7RK0r84SN5IDfM%3D
 ```
 
