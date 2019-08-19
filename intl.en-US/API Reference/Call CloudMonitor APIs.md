@@ -45,7 +45,7 @@ http://metrics.cn-hangzhou.aliyuncs.com/?Action=DescribeMetricList
 |Germany \(Frankfurt\)|metrics.eu-central-1.aliyuncs.com|
 |Australia \(Sydney\)|metrics.ap-southeast-2.aliyuncs.com|
 |UAE \(Dubai\)|metrics.me-east-1.aliyuncs.com|
-|Japan \(Tokyo\)|metrics.cn-hangzhou.aliyuncs.com|
+|Japan \(Tokyo\)|metrics.ap-northeast-1.aliyuncs.com|
 |Malaysia \(Kuala Lumpur\)|metrics.ap-southeast-3.aliyuncs.com|
 |China \(Hohhot\)|metrics.cn-huhehaote.aliyuncs.com|
 |Indonesia \(Jakarta\)|metrics.ap-southeast-5.aliyuncs.com|
