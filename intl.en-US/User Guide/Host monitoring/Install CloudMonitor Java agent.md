@@ -32,6 +32,7 @@ This command varies by region. Copy the corresponding command and then run it on
 
 
 
+
 REGION_ID=cn-qingdao VERSION=1.3.7 \
 bash -c "$(curl https://cms-agent-cn-qingdao.oss-cn-qingdao-internal.aliyuncs.com/release/cms_install_for_linux.sh)"
 ```
@@ -39,6 +40,7 @@ bash -c "$(curl https://cms-agent-cn-qingdao.oss-cn-qingdao-internal.aliyuncs.co
 **China North 2 \(Beijing\) cn-beijing**
 
 ``` {#codeblock_p38_t75_ux9}
+
 
 
 
@@ -52,6 +54,7 @@ bash -c "$(curl https://cms-agent-cn-beijing.oss-cn-beijing-internal.aliyuncs.co
 
 
 
+
 REGION_ID=cn-zhangjiakou VERSION=1.3.7 \
 bash -c "$(curl https://cms-agent-cn-zhangjiakou.oss-cn-zhangjiakou-internal.aliyuncs.com/release/cms_install_for_linux.sh)"
 ```
@@ -59,6 +62,7 @@ bash -c "$(curl https://cms-agent-cn-zhangjiakou.oss-cn-zhangjiakou-internal.ali
 **China North 5 \(Hohhot\) cn-huhehaote**
 
 ``` {#codeblock_zjv_k6i_z6x}
+
 
 
 
@@ -72,6 +76,7 @@ bash -c "$(curl https://cms-agent-cn-huhehaote.oss-cn-huhehaote-internal.aliyunc
 
 
 
+
 REGION_ID=cn-hangzhou VERSION=1.3.7 \
 bash -c "$(curl https://cms-agent-cn-hangzhou.oss-cn-hangzhou-internal.aliyuncs.com/release/cms_install_for_linux.sh)"
 ```
@@ -79,6 +84,7 @@ bash -c "$(curl https://cms-agent-cn-hangzhou.oss-cn-hangzhou-internal.aliyuncs.
 **China East 2 \(Shanghai\) cn-shanghai**
 
 ``` {#codeblock_p25_ifs_o7y}
+
 
 
 
@@ -92,13 +98,15 @@ bash -c "$(curl https://cms-agent-cn-shanghai.oss-cn-shanghai-internal.aliyuncs.
 
 
 
+
 REGION_ID=cn-shenzhen VERSION=1.3.7 \
 bash -c "$(curl https://cms-agent-cn-shenzhen.oss-cn-shenzhen-internal.aliyuncs.com/release/cms_install_for_linux.sh)"
 ```
 
-**China \(Hong Kong\) cn-hongkong**
+**China \(Hong Kong\) \(Hong Kong\) cn-hongkong**
 
 ``` {#codeblock_8hx_97r_i9b}
+
 
 
 
@@ -112,6 +120,7 @@ bash -c "$(curl https://cms-agent-cn-hongkong.oss-cn-hongkong-internal.aliyuncs.
 
 
 
+
 REGION_ID=us-west-1 VERSION=1.3.7 \
 bash -c "$(curl https://cms-agent-us-west-1.oss-us-west-1-internal.aliyuncs.com/release/cms_install_for_linux.sh)"
 ```
@@ -119,6 +128,7 @@ bash -c "$(curl https://cms-agent-us-west-1.oss-us-west-1-internal.aliyuncs.com/
 **US East 1 \(Virginia\) us-east-1**
 
 ``` {#codeblock_1sy_fki_moj}
+
 
 
 
@@ -132,6 +142,7 @@ bash -c "$(curl https://cms-agent-us-east-1.oss-us-east-1-internal.aliyuncs.com/
 
 
 
+
 REGION_ID=ap-southeast-1 VERSION=1.3.7 \
 bash -c "$(curl https://cms-agent-ap-southeast-1.oss-ap-southeast-1-internal.aliyuncs.com/release/cms_install_for_linux.sh)"
 ```
@@ -139,6 +150,7 @@ bash -c "$(curl https://cms-agent-ap-southeast-1.oss-ap-southeast-1-internal.ali
 **Asia Pacific SE 2 \(Sydney\) ap-southeast-2**
 
 ``` {#codeblock_y0d_2y6_wmw}
+
 
 
 
@@ -152,6 +164,7 @@ bash -c "$(curl https://cms-agent-ap-southeast-2.oss-ap-southeast-2-internal.ali
 
 
 
+
 REGION_ID=ap-southeast-3 VERSION=1.3.7 \
 bash -c "$(curl https://cms-agent-ap-southeast-3.oss-ap-southeast-3-internal.aliyuncs.com/release/cms_install_for_linux.sh)"
 ```
@@ -159,6 +172,7 @@ bash -c "$(curl https://cms-agent-ap-southeast-3.oss-ap-southeast-3-internal.ali
 **Asia Pacific SE 5 \(Jakarta\) ap-southeast-5**
 
 ``` {#codeblock_36i_c8m_m61}
+
 
 
 
@@ -172,6 +186,7 @@ bash -c "$(curl https://cms-agent-ap-southeast-5.oss-ap-southeast-5-internal.ali
 
 
 
+
 REGION_ID=ap-northeast-1 VERSION=1.3.7 \
 bash -c "$(curl https://cms-agent-ap-northeast-1.oss-ap-northeast-1-internal.aliyuncs.com/release/cms_install_for_linux.sh)"
 ```
@@ -179,6 +194,7 @@ bash -c "$(curl https://cms-agent-ap-northeast-1.oss-ap-northeast-1-internal.ali
 **Asia Pacific SOU 1 \(Mumbai\) ap-south-1**
 
 ``` {#codeblock_512_svw_xoy}
+
 
 
 
@@ -192,6 +208,7 @@ bash -c "$(curl https://cms-agent-ap-south-1.oss-ap-south-1-internal.aliyuncs.co
 
 
 
+
 REGION_ID=eu-central-1 VERSION=1.3.7 \
 bash -c "$(curl https://cms-agent-eu-central-1.oss-eu-central-1-internal.aliyuncs.com/release/cms_install_for_linux.sh)"
 ```
@@ -202,12 +219,14 @@ bash -c "$(curl https://cms-agent-eu-central-1.oss-eu-central-1-internal.aliyunc
 
 
 
+
 REGION_ID=eu-west-1 VERSION=1.3.7 \ bash -c "$(curl https://cms-agent-eu-west-1.oss-eu-west-1-internal.aliyuncs.com/release/cms_install_for_linux.sh)"
 ```
 
 **Middle East 1 \(Dubai\) me-east-1**
 
 ``` {#codeblock_9l2_na5_npf}
+
 
 
 
@@ -221,6 +240,7 @@ bash -c "$(curl https://cms-agent-me-east-1.oss-me-east-1-internal.aliyuncs.com/
 
 
 
+
 REGION_ID=cn-hangzhou VERSION=1.3.7 \
 bash -c "$(curl https://cms-agent-cn-hangzhou.oss-cn-hangzhou-internal.aliyuncs.com/release/cms_install_for_linux.sh)"
 ```
@@ -231,6 +251,7 @@ bash -c "$(curl https://cms-agent-cn-hangzhou.oss-cn-hangzhou-internal.aliyuncs.
 
 
 
+
 REGION_ID=cn-shanghai-finance-1 VERSION=1.3.7 \
 bash -c "$(curl https://cms-agent-cn-shanghai-finance-1.oss-cn-shanghai-finance-1-pub-internal.aliyuncs.com/release/cms_install_for_linux.sh)"
 ```
@@ -238,6 +259,7 @@ bash -c "$(curl https://cms-agent-cn-shanghai-finance-1.oss-cn-shanghai-finance-
 **China South 1 Finance Cloud \(Shenzhen\) cn-shenzen-finance-1**
 
 ``` {#codeblock_1ec_p6s_bhw}
+
 
 
 
@@ -286,7 +308,7 @@ The following table lists the ports that the CloudMonitor agent uses to interact
 |100.100.15.23:80|Egress|Used to collect monitoring data to CloudMonitor|
 |China South 1 \(Shenzhen\) cn-shenzhen|100.100.0.13:3128|Egress|Used for monitoring configuration management, and other management and control operations|
 |100.100.0.31:80|Egress|Used to collect monitoring data to CloudMonitor|
-|China \(Hong Kong\) cn-hongkong|100.103.0.47:3128|Egress|Used for monitoring configuration management, and other management and control operations|
+|China \(Hong Kong\) \(Hong Kong\) cn-hongkong|100.103.0.47:3128|Egress|Used for monitoring configuration management, and other management and control operations|
 |100.103.0.45:80|Egress|Used to collect monitoring data to CloudMonitor|
 |China North 5 \(Hohhot\) cn-huhehaote|100.100.80.135:8080|Egress|Used for monitoring configuration management, and other management and control operations|
 |100.100.80.12:80|Egress|Used to collect monitoring data to CloudMonitor|
