@@ -41,7 +41,7 @@ http://metrics.cn-hangzhou.aliyuncs.com/?Action=DescribeMetricList
 |华东 1（杭州）|metrics.cn-hangzhou.aliyuncs.com|
 |华东 2（上海）|metrics.cn-shanghai.aliyuncs.com|
 |华南 1（深圳）|metrics.cn-shenzhen.aliyuncs.com|
-|中国香港|metrics.cn-hongkong.aliyuncs.com|
+|中国香港（香港）|metrics.cn-hongkong.aliyuncs.com|
 |亚太东南 1（新加坡）|metrics.ap-southeast-1.aliyuncs.com|
 |亚太东南 2（悉尼）|metrics.ap-southeast-2.aliyuncs.com|
 |亚太东南 3（吉隆坡）|metrics.ap-southeast-3.aliyuncs.com|
@@ -60,7 +60,7 @@ http://metrics.cn-hangzhou.aliyuncs.com/?Action=DescribeMetricList
 
 ## API签名 {#section_jzn_wbv_zdb .section}
 
-为保证API的安全调用，在调用API时阿里云会对每个API请求通过签名（Signature）进行身份验证。当您手动发起API请求时，需要按照[RFC 2104](https://www.ietf.org/rfc/rfc2104.txt?spm=a2c4g.11186623.2.6.tstgdp&file=rfc2104.txt)的定义，使用AccessSecret对编码、排序后的整个请求串计算HMAC值作为签名。更多详细信息，请参见[RPC API签名](https://help.aliyun.com/document_detail/66384.html)。
+为保证API的安全调用，在调用API时阿里云会对每个API请求通过签名（Signature）进行身份验证。当您手动发起API请求时，需要按照[RFC 2104](https://www.ietf.org/rfc/rfc2104.txt?spm=a2c4g.11186623.2.6.tstgdp&file=rfc2104.txt)的定义，使用AccessSecret对编码、排序后的整个请求串计算HMAC值作为签名。更多详细信息，请参见[RPC API签名](https://www.alibabacloud.com/help/doc-detail/66384.htm)。
 
 RPC API要按如下格式在API请求的中增加签名（Signature）：
 
