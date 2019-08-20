@@ -250,7 +250,7 @@ For details, see [OSS metric reference](https://www.alibabacloud.com/help/doc-de
 |hitRate|Bytes hit rate \(The probability that request bytes hit the cache\)|%|InstanceId|Average, minimum, and maximum|
 |code4xx|The percentage of status codes of the format 4xx|%|InstanceId|Average, minimum, and maximum|
 |code5xx|The percentage of status codes of the format 5xx|%|InstanceId|Average, minimum, and maximum|
-|InternetOut|Downstream traffic|Byte|InstanceId|Average, minimum, and maximum|
+|InternetOut|Downstream traffic|Byte|InstanceId|Sum|
 
 ## Analytic DB metrics {#section_n2c_1tz_zdb .section}
 
