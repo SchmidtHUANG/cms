@@ -32,7 +32,7 @@
 
     本文使用的插件版本为：2.1.55，建议您使用最新版本。最新版本号可在云监控的主机监控页面查到。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/64886/156196846334123_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/64886/156628106434123_zh-CN.png)
 
 
 **常用命令**
@@ -109,7 +109,7 @@ REGION_ID=cn-shenzhen VERSION=2.1.55 \
 bash -c "$(curl https://cms-agent-cn-shenzhen.oss-cn-shenzhen-internal.aliyuncs.com/cms-go-agent/cms_go_agent_install.sh)"
 ```
 
-香港 香港 cn-hongkong
+中国香港 香港 cn-hongkong
 
 ``` {#codeblock_qjp_lqh_oyt}
 REGION_ID=cn-hongkong VERSION=2.1.55 \
@@ -220,7 +220,7 @@ bash -c "$(curl http://cms-agent-cn-shenzhen-finance-1.oss-cn-shenzhen-finance-1
 
 1.  根据系统情况（所在Region，主机类型），下载云监控插件[64位版本插件](http://cms-download.aliyun.com/cms-go-agent/2.1.47/CmsGoAgent.windows-amd64.exe)或[32位版本插件](http://cms-download.aliyun.com/cms-go-agent/2.1.47/CmsGoAgent.windows-386.exe) 到C:\\Program Files\\Alibaba\\cloudmonitor目录下。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/64886/156196846438125_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/64886/156628106438125_zh-CN.png)
 
 2.  使用管理员权限启动**命令提示符**。
 3.  输入并执行以下命令：
@@ -233,7 +233,7 @@ bash -c "$(curl http://cms-agent-cn-shenzhen-finance-1.oss-cn-shenzhen-finance-1
 
 4.  安装完成后，可以通过Windows系统的**服务**来查看、启动、停止云监控服务。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/64886/156196846434124_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/64886/156628106434124_zh-CN.png)
 
 
 **卸载步骤**
@@ -276,7 +276,7 @@ bash -c "$(curl http://cms-agent-cn-shenzhen-finance-1.oss-cn-shenzhen-finance-1
 |100.100.15.23:80|出方向|收集监控数据到云监控服务端|
 |cn-shenzhen 华南 1 深圳|100.100.0.13:3128|出方向|监控配置管理等管控类操作|
 |100.100.0.31:80|出方向|收集监控数据到云监控服务端|
-|cn-hongkong 香港|100.103.0.47:3128|出方向|监控配置管理等管控类操作|
+|cn-hongkong 中国香港 香港|100.103.0.47:3128|出方向|监控配置管理等管控类操作|
 |100.103.0.45:80|出方向|收集监控数据到云监控服务端|
 |cn-huhehaote 华北 5 呼和浩特|100.100.80.135:8080|出方向|监控配置管理等管控类操作|
 |100.100.80.12:80|出方向|收集监控数据到云监控服务端|

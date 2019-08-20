@@ -20,7 +20,7 @@
 
 1.  The binary file name of the agent
 
-    ```
+    ``` {#pre_9jd_6nw_ce3}
     `CmsGoAgent.linux-${ARCH}`
     ```
 
@@ -30,12 +30,12 @@
 
     In this topic, the version 2.1.55 is used. We recommend that you use the latest version. You can find the number of the latest version on the host monitoring page in the CloudMonitor console.
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/64886/155081609834123_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/64886/156628107534123_en-US.png)
 
 
-**Frequently used commands**
+**Frequently used commands** 
 
-```
+``` {#codeblock_jk3_k2w_zde}
 # Register the agent as a system service.
 /usr/local/cloudmonitor/CmsGoAgent.linux-${ARCH}install
 # Remove the agent from system services.
@@ -50,7 +50,7 @@
 /usr/local/cloudmonitor/CmsGoAgent.linux-${ARCH} stop && \
 /usr/local/cloudmonitor/CmsGoAgent.linux-${ARCH} uninstall && \
 rm -rf /usr/local/cloudmonitor
-
+				
 ```
 
 **Installation command**
@@ -61,154 +61,154 @@ Copy the installation command of the region you require and then run the command
 
 **China North 1 \(Qingdao\) cn-qingdao**
 
-```
+``` {#codeblock_yx6_zdw_p7o}
 REGION_ID=cn-qingdao VERSION=2.1.55 \
 bash -c "$(curl https://cms-agent-cn-qingdao.oss-cn-qingdao-internal.aliyuncs.com/cms-go-agent/cms_go_agent_install.sh)"
 ```
 
 **China North 2 \(Beijing\) cn-beijing**
 
-```
+``` {#codeblock_xm4_u8z_9ws}
 REGION_ID=cn-beijing VERSION=2.1.55 \
 bash -c "$(curl https://cms-agent-cn-beijing.oss-cn-beijing-internal.aliyuncs.com/cms-go-agent/cms_go_agent_install.sh)"
 ```
 
 **China North 3 \(Zhangjiakou\) cn-zhangjiakou**
 
-```
+``` {#codeblock_t7w_fig_jtx}
 REGION_ID=cn-zhangjiakou VERSION=2.1.55 \
 bash -c "$(curl https://cms-agent-cn-zhangjiakou.oss-cn-zhangjiakou-internal.aliyuncs.com/cms-go-agent/cms_go_agent_install.sh)"
 ```
 
 **China North 5 \(Hohhot\) cn-huhehaote**
 
-```
+``` {#codeblock_el0_r1i_ahn}
 REGION_ID=cn-huhehaote VERSION=2.1.55 \
 bash -c "$(curl https://cms-agent-cn-huhehaote.oss-cn-huhehaote-internal.aliyuncs.com/cms-go-agent/cms_go_agent_install.sh)"
 ```
 
 **China East 1 \(Hangzhou\) cn-hangzhou**
 
-```
+``` {#codeblock_q6d_qlx_wuq}
 REGION_ID=cn-hangzhou VERSION=2.1.55 \
 bash -c "$(curl https://cms-agent-cn-hangzhou.oss-cn-hangzhou-internal.aliyuncs.com/cms-go-agent/cms_go_agent_install.sh)"
 ```
 
 **China East 2 \(Shanghai\) cn-shanghai**
 
-```
+``` {#codeblock_uo0_2wp_wul}
 REGION_ID=cn-shanghai VERSION=2.1.55 \
 bash -c "$(curl https://cms-agent-cn-shanghai.oss-cn-shanghai-internal.aliyuncs.com/cms-go-agent/cms_go_agent_install.sh)"
 ```
 
 **China South 1 \(Shenzhen\) cn-shenzhen**
 
-```
+``` {#codeblock_l7z_40c_u6w}
 REGION_ID=cn-shenzhen VERSION=2.1.55 \
 bash -c "$(curl https://cms-agent-cn-shenzhen.oss-cn-shenzhen-internal.aliyuncs.com/cms-go-agent/cms_go_agent_install.sh)"
 ```
 
-**Hong Kong \(China\) cn-hongkong**
+**China \(Hong Kong\) \(Hong Kong\) cn-hongkong**
 
-```
+``` {#codeblock_k1l_keg_kcf}
 REGION_ID=cn-hongkong VERSION=2.1.55 \
 bash -c "$(curl https://cms-agent-cn-hongkong.oss-cn-hongkong-internal.aliyuncs.com/cms-go-agent/cms_go_agent_install.sh)"
 ```
 
 **US West 1 \(Silicon Valley\) us-west-1**
 
-```
+``` {#codeblock_8x9_4oa_x09}
 REGION_ID=us-west-1 VERSION=2.1.55 \
 bash -c "$(curl https://cms-agent-us-west-1.oss-us-west-1-internal.aliyuncs.com/cms-go-agent/cms_go_agent_install.sh)"
 ```
 
 **US East 1 \(Virginia\) us-east-1**
 
-```
+``` {#codeblock_1le_0r6_2al}
 REGION_ID=us-east-1 VERSION=2.1.55 \
 bash -c "$(curl https://cms-agent-us-east-1.oss-us-east-1-internal.aliyuncs.com/cms-go-agent/cms_go_agent_install.sh)"
 ```
 
 **Asia Pacific SE 1 \(Singapore\) ap-southeast-1**
 
-```
+``` {#codeblock_eqd_iuu_94l}
 REGION_ID=ap-southeast-1 VERSION=2.1.55 \
 bash -c "$(curl https://cms-agent-ap-southeast-1.oss-ap-southeast-1-internal.aliyuncs.com/cms-go-agent/cms_go_agent_install.sh)"
 ```
 
 **Asia Pacific SE 2 \(Sydney\) ap-southeast-2**
 
-```
+``` {#codeblock_dyi_j9s_0pd}
 REGION_ID=ap-southeast-2 VERSION=2.1.55 \
 bash -c "$(curl https://cms-agent-ap-southeast-2.oss-ap-southeast-2-internal.aliyuncs.com/cms-go-agent/cms_go_agent_install.sh)"
 ```
 
 **Asia Pacific SE 3 \(Kuala Lumpur\) ap-southeast-3**
 
-```
+``` {#codeblock_ue2_rsc_ncf}
 REGION_ID=ap-southeast-3 VERSION=2.1.55 \
 bash -c "$(curl https://cms-agent-ap-southeast-3.oss-ap-southeast-3-internal.aliyuncs.com/cms-go-agent/cms_go_agent_install.sh)"
 ```
 
 **Asia Pacific SE 5 \(Jakarta\) ap-southeast-5**
 
-```
+``` {#codeblock_i8m_6kw_2os}
 REGION_ID=ap-southeast-5 VERSION=2.1.55 \
 bash -c "$(curl https://cms-agent-ap-southeast-5.oss-ap-southeast-5-internal.aliyuncs.com/cms-go-agent/cms_go_agent_install.sh)"
 ```
 
 **Asia Pacific NE 1 \(Tokyo\) ap-northeast-1**
 
-```
+``` {#codeblock_ohz_lye_u6m}
 REGION_ID=ap-northeast-1 VERSION=2.1.55 \
 bash -c "$(curl https://cms-agent-ap-northeast-1.oss-ap-northeast-1-internal.aliyuncs.com/cms-go-agent/cms_go_agent_install.sh)"
 ```
 
 **Asia Pacific SOU 1 \(Mumbai\) ap-south-1**
 
-```
+``` {#codeblock_aix_sto_5pc}
 REGION_ID=ap-south-1 VERSION=2.1.55 \
 bash -c "$(curl https://cms-agent-ap-south-1.oss-ap-south-1-internal.aliyuncs.com/cms-go-agent/cms_go_agent_install.sh)"
 ```
 
 **EU Central 1 \(Frankfurt\) eu-central-1**
 
-```
+``` {#codeblock_vg3_2hm_iqs}
 REGION_ID=eu-central-1 VERSION=2.1.55 \
 bash -c "$(curl https://cms-agent-eu-central-1.oss-eu-central-1-internal.aliyuncs.com/cms-go-agent/cms_go_agent_install.sh)"
 ```
 
 **UK \(London\) eu-west-1**
 
-```
+``` {#codeblock_x1x_z5p_y62}
 REGION_ID=eu-west-1 VERSION=2.1.55 \
 bash -c "$(curl https://cms-agent-eu-west-1.oss-eu-west-1-internal.aliyuncs.com/cms-go-agent/cms_go_agent_install.sh)"
 ```
 
 **Middle East 1 \(Dubai\) me-east-1**
 
-```
+``` {#codeblock_d5q_wfh_gk4}
 REGION_ID=me-east-1 VERSION=2.1.55 \
 bash -c "$(curl https://cms-agent-me-east-1.oss-me-east-1-internal.aliyuncs.com/cms-go-agent/cms_go_agent_install.sh)"
 ```
 
 **China East 1 Finance Cloud \(Hangzhou\) cn-hangzhou**
 
-```
+``` {#codeblock_81p_cni_jxz}
 REGION_ID=cn-hangzhou VERSION=2.1.55 \
 bash -c "$(curl https://cms-agent-cn-hangzhou.oss-cn-hangzhou-internal.aliyuncs.com/cms-go-agent/cms_go_agent_install.sh)"
 ```
 
 **China East 2 Finance Cloud \(Shanghai\) cn-shanghai-finance-1**
 
-```
+``` {#codeblock_z9e_6ls_iku}
 REGION_ID=cn-shanghai-finance-1 VERSION=2.1.55 \
 bash -c "$(curl https://cms-agent-cn-shanghai-finance-1.oss-cn-shanghai-finance-1-pub-internal.aliyuncs.com/cms-go-agent/cms_go_agent_install.sh)"
 ```
 
 **China South 1 Finance Cloud \(Shenzhen\) cn-shenzen-finance-1**
 
-```
+``` {#codeblock_g5f_040_3bh}
 REGION_ID=cn-shenzhen-finance-1 VERSION=2.1.55 \
 bash -c "$(curl http://cms-agent-cn-shenzhen-finance-1.oss-cn-shenzhen-finance-1-internal.aliyuncs.com/cms-go-agent/cms_go_agent_install.sh)"
 ```
@@ -219,21 +219,21 @@ bash -c "$(curl http://cms-agent-cn-shenzhen-finance-1.oss-cn-shenzhen-finance-1
 
 1.  Select your region and host type. Then, depending on your operating system version, download a [64-bit agent version](http://cms-download.aliyun.com/cms-go-agent/2.1.47/CmsGoAgent.windows-amd64.exe) or [32-bit agent version](http://cms-download.aliyun.com/cms-go-agent/2.1.47/CmsGoAgent.windows-386.exe) and save it in C:\\Program Files\\Alibaba\\cloudmonitor.
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/64886/155081609838125_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/64886/156628107538125_en-US.png)
 
 2.  Open the **Command Prompt** as an administrator.
 3.  Run the following command:
 
-    ```
+    ``` {#codeblock_klo_s1a_hlu}
     cd"C:\Program Files\Alibaba\cloudmonitor"
     CmsGoAgent.windows-amd64.exe install
     CmsGoAgent.windows-amd64.exe start
-    
+    					
     ```
 
 4.  After the installation is complete, you can use **Windows Services** to view, start, and stop the agent.
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/64886/155081609834124_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/64886/156628107534124_en-US.png)
 
 
 **Uninstall procedure**
@@ -241,11 +241,11 @@ bash -c "$(curl http://cms-agent-cn-shenzhen-finance-1.oss-cn-shenzhen-finance-1
 1.  Open the **Command Prompt** as an administrator.
 2.  Run the following command:
 
-    ```
+    ``` {#codeblock_u04_1j4_kga}
     cd"C:\Program Files\Alibaba\cloudmonitor"
     CmsGoAgent.windows-amd64.exe stop
     CmsGoAgent.windows-amd64.exe uninstall
-    
+    					
     ```
 
 3.  Close the **Command Prompt**, and delete the directory `C:\Program Files\Alibaba\cloudmonitor`.
@@ -277,7 +277,7 @@ The following table lists the ports that the CloudMonitor agent uses to interact
 |100.100.15.23:80|Egress|Used to collect monitoring data to CloudMonitor|
 |China South 1 \(Shenzhen\) cn-shenzhen|100.100.0.13:3128|Egress|Used for monitoring configuration management, and other management and control operations|
 |100.100.0.31:80|Egress|Used to collect monitoring data to CloudMonitor|
-|Hong Kong \(China\) cn-hongkong|100.103.0.47:3128|Egress|Used for monitoring configuration management, and other management and control operations|
+|China \(Hong Kong\) \(Hong Kong\) cn-hongkong|100.103.0.47:3128|Egress|Used for monitoring configuration management, and other management and control operations|
 |100.103.0.45:80|Egress|Used to collect monitoring data to CloudMonitor|
 |China North 5 \(Hohhot\) cn-huhehaote|100.100.80.135:8080|Egress|Used for monitoring configuration management, and other management and control operations|
 |100.100.80.12:80|Egress|Used to collect monitoring data to CloudMonitor|
@@ -322,7 +322,7 @@ The following table lists the ports that the CloudMonitor agent uses to interact
 |Asia Pacific SOU 1 \(Mumbai\) ap-south-1|100.100.80.152:8080|Egress|Used for monitoring configuration management, and other management and control operations|
 |100.100.80.66:80|Egress|Used to collect monitoring data to CloudMonitor|
 
-**FAQ**
+ **FAQ** 
 
 -   Where are CloudMonitor logs saved?
     -   Linux: /usr/local/cloudmonitor/logs
