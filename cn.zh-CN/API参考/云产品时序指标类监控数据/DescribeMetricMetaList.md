@@ -12,10 +12,10 @@
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
-|Namespace|String|是|acs\_kvstore|指标所属的Namespace，用于区分每个产品配置。
+|Action|String|是|DescribeMetricMetaList|系统规定参数，取值：DescribeMetricMetaList
 
  |
-|Action|String|否|DescribeMetricMetaList|系统规定参数，取值：DescribeMetricMetaList
+|Namespace|String|是|acs\_kvstore|指标所属的Namespace，用于区分每个产品配置。
 
  |
 |Labels|String|否|\[\{"name":"productCategory","value":"kvstore\_old"\}\]|根据标签过滤，格式`[{"name":"标签名","value":"标签值"},{"name":"标签名","value":"标签值"}]`。
