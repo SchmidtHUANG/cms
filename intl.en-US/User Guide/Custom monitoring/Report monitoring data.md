@@ -6,7 +6,7 @@ CloudMonitor provides API operations, Java SDKs, and Alibaba Cloud command-line 
 
 ## Limits {#section_q4b_znk_zdb .section}
 
--   The upper limit of queries per second \(QPS\) is 200 QPS in China \(Beijing\), China \(Shanghai\), and China \(Hangzhou\), 100 QPS in China \(Zhangjiakou-Beijing Winter Olympics\) and China \(Shenzhen\), and 50 QPS in all other regions.
+-   The upper limit of queries per second \(QPS\) is 200 QPS in China \(Beijing\), China \(Shanghai\), and China \(Hangzhou\), 100 QPS in China \(Zhangjiakou\) and China \(Shenzhen\), and 50 QPS in all other regions.
 -   The system reports a maximum of 100 data entries at one time. The body size is 256 KB or less.
 -   The `metricName` field can only contain letters, digits, and underscores \(\_\). This field must start with a letter. If the starting character is not a letter, this character is replaced with an uppercase A. Invalid characters are replaced with underscores \(\_\).
 -   The `dimensions` field cannot contain equal signs \(=\), ampersands \(&\), or commas \(,\). Invalid characters are replaced with underscores \(\_\).
@@ -52,7 +52,7 @@ After you report the raw data by using API operations, CloudMonitor uses the fol
     |China \(Shanghai\)|cn-shanghai|http://metrichub-cn-shanghai.aliyun.com|
     |China \(Beijing\)|cn-beijing|http://metrichub-cn-beijing.aliyun.com|
     |China \(Qingdao\)|cn-qingdao|http://metrichub-cn-qingdao.aliyun.com|
-    |China \(Shenzhen\)|cn-shenzhen |http://metrichub-cn-shenzhen.aliyun.com|
+    |China \(Shenzhen\)|cn-shenzhen|http://metrichub-cn-shenzhen.aliyun.com|
     |China \(Hong Kong\)|cn-hongkong|http://metrichub-cn-hongkong.aliyun.com|
     |China \(Hohhot\)|cn-huhehaote|http://metrichub-cn-huhehaote.aliyun.com|
     |UAE \(Dubai\)|me-east-1|http://metrichub-me-east-1.aliyun.com|
@@ -351,15 +351,15 @@ Make sure that you have created an Alibaba Cloud account, created a RAM user for
 
 -   **Create a RAM user.**
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/6219/156410892547465_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/6219/156740551647465_en-US.png)
 
 -   **Generate an AccessKey ID and an AccessKey Secret for the RAM user.**
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/6219/156410892547466_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/6219/156740551647466_en-US.png)
 
 -   **Grant CloudMonitor permissions to the RAM user.**
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/6219/156410892547474_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/6219/156740551647474_en-US.png)
 
 
  **Install Alibaba Cloud CLI** 
@@ -462,10 +462,10 @@ To use the AccessKey pair of the corresponding RAM user to report event data, yo
 2.  In the left-side navigation pane, click **Users** to go to the Users page.
 3.  On the Users page that appears, select the RAM user that you use to report data, and click **Add Permissions** in the Actions column next to the target RAM user.
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/6219/156410892647475_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/6219/156740551647475_en-US.png)
 
 4.  On the Add Permissions page, select **AliyunCloudMonitorFullAccess** and click **OK**.
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/6219/156410892647476_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/6219/156740551747476_en-US.png)
 
 
