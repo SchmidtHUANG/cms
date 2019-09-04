@@ -23,9 +23,12 @@ Only ECS, RDS, and SLB instances that meet the preconfigured dynamic matching ru
 2.  In the left-side navigation pane, click **Application Groups**. The Application Groups page is displayed.
 3.  Click the name of the group to which you want to add resources. The Group Instances page is displayed.
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/106806/155661127737587_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/106806/156756302137587_en-US.png)
 
-4.  Click **Add Product**. The Add Resource page is displayed.![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/106806/155661127837588_en-US.png)
+4.  Click **Add Product**. The Add Resource page is displayed.
+
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/106806/156756302137588_en-US.png)
+
 5.  Select a service from the drop-down list, select the instances to be added from the instance list of the service, and click **OK**.
 
 **Add instances**
@@ -34,12 +37,12 @@ Only ECS, RDS, and SLB instances that meet the preconfigured dynamic matching ru
 2.  In the left-side navigation pane, click **Application Groups**. The Application Groups page is displayed.
 3.  Click the name of the group to which you want to add resources. The Group Instances page is displayed.
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/106806/155661127837589_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/106806/156756302137589_en-US.png)
 
 4.  Click the tab of a service to be added such as OSS.
 5.  On the tab that appears, click **Add Instance**. The Add Resource page is displayed.
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/106806/155661127837590_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/106806/156756302137590_en-US.png)
 
 6.  Select the instances to be added and click **OK**.
 
