@@ -26,11 +26,20 @@ You can create an event alert rule. Then, you can use system event testing to ch
         1.  Event Type: Select **System Event**.
         2.  Product Type, Event Level, and Event Name: Set the parameters based on the actual situation.
         3.  Resource Range: If you select **All Resources**, alerts are sent when any resource-related events occur. If you select **Application Groups**, alerts are sent only when events that are related to the resources in the specified group occur.
-    6.  Select the **Alarm Type**. CloudMonitor supports four alert types: alert notification, MNS queue, function service, and URL callback.![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/17722/15565276809712_en-US.png)
+    6.  Select the **Alarm Type**. CloudMonitor supports four alert types: alert notification, MNS queue, function service, and URL callback.
+
+        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/17722/15675632839712_en-US.png)
+
 
 -   **Test an alert rule** 
-    1.  Access the Alarm Rules tab for event monitoring.![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/17722/15565276809690_en-US.png)
+    1.  Access the Alarm Rules tab for event monitoring.
+
+        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/17722/15675632839690_en-US.png)
+
     2.  Click **Test** in the Actions column corresponding to the RAM user.
     3.  On the test page that appears, select the event to be tested. The corresponding event content will be displayed. You can change content fields such as the instance ID as needed.
-    4.  Click **OK**. The system will send an event based on the content, triggering alert notification, MNS queue, Function Compute, and URL callback that are configured in the alert rule.![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/17722/15565276809691_en-US.png)
+    4.  Click **OK**. The system will send an event based on the content, triggering alert notification, MNS queue, Function Compute, and URL callback that are configured in the alert rule.
+
+        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/17722/15675632839691_en-US.png)
+
 
