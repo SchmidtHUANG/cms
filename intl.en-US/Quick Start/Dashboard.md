@@ -17,7 +17,7 @@ You can quickly view the resources used by each cloud product on its correspondi
 2.  In the left-side navigation pane, select **Dashboard** and click **Custom Dashboard**. The Dashboards page is displayed.
 3.  Select the target dashboard from the **Dashboards** drop-down list. You can switch the dashboard view by selecting different dashboards.
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/6124/1552903520994_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/6124/1567568361994_en-US.png)
 
 
 ## Create a dashboard {#section_fw2_htv_tdb .section}
@@ -30,11 +30,11 @@ You can create a dashboard and customize the view to meet your specific requirem
 2.  In the left-side navigation pane, select **Dashboard** and click **Custom Dashboard**. The Dashboards page is displayed.
 3.  In the upper-right corner of the page, click **Create Dashboard**.
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/6124/1552903520996_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/6124/1567568361996_en-US.png)
 
 4.  Enter the dashboard name and click **Create**.
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/6124/1552903520997_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/6124/1567568362997_en-US.png)
 
 5.  On the displayed page, add charts as needed.
 
@@ -48,7 +48,7 @@ When you report your service monitoring data by using the CloudMonitor API, you 
 
 **Procedure**
 
-For details, see [Add charts](../../../../../reseller.en-US/User Guide/Visual reports/Use dashboards/Add charts.md#).
+For details, see [Add charts](../../../../reseller.en-US/User Guide/Visual reports/Use dashboards/Add charts.md#).
 
 ## Delete a dashboard {#section_lw1_z1w_tdb .section}
 
@@ -68,5 +68,8 @@ For details, see [Add charts](../../../../../reseller.en-US/User Guide/Visual re
 
 1.  Log on to the [CloudMonitor Console](https://partners-intl.console.aliyun.com/#/cms).
 2.  In the left-side navigation pane, select **Dashboard** and click **Custom Dashboard**. The Dashboards page is displayed.
-3.  Rest the pointer on a dashboard until the **Edit** button is displayed. Click **Edit**, enter the new dashboard name, and click **OK**.![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/6124/15529035201019_en-US.png)
+3.  Rest the pointer on a dashboard until the **Edit** button is displayed. Click **Edit**, enter the new dashboard name, and click **OK**.
+
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/6124/15675683621019_en-US.png)
+
 
