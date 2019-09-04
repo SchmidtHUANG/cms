@@ -9,9 +9,12 @@ After you use application groups to classify resources, service-related system e
 1.  Log on to the [CloudMonitor console](https://partners-intl.console.aliyun.com/#/cms).
 2.  In the left-side navigation pane, click **Event Monitoring**. The Event Monitoring page is displayed. Set event type to **System Events**. Select a service from the service drop-down list and an event from the event drop-down list. Select a time range. The events that occurred within the specified time range are displayed.
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/6167/15565275904910_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/6167/15675631574910_en-US.png)
 
-3.  Click **View Details** in the Actions column corresponding to an event to view the details of the event.![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/6167/15565275904911_en-US.png)
+3.  Click **View Details** in the Actions column corresponding to an event to view the details of the event.
+
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/6167/15675631574911_en-US.png)
+
 
 ## View system events by group {#section_t2m_nv3_ygb .section}
 
