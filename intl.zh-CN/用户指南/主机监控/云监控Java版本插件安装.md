@@ -1,5 +1,7 @@
 # 云监控Java版本插件安装 {#concept_d5f_vhv_vdb .concept}
 
+本文为您介绍云监控Java版本插件的安装。
+
 ## Linux插件安装说明 {#section_vhm_3cf_xdb .section}
 
 **常用命令**
@@ -32,6 +34,8 @@ rm -rf /usr/local/cloudmonitor
 
 
 
+
+
 REGION_ID=cn-qingdao VERSION=1.3.7 \
 bash -c "$(curl https://cms-agent-cn-qingdao.oss-cn-qingdao-internal.aliyuncs.com/release/cms_install_for_linux.sh)"
 ```
@@ -39,6 +43,8 @@ bash -c "$(curl https://cms-agent-cn-qingdao.oss-cn-qingdao-internal.aliyuncs.co
 **华北2 北京 cn-beijing**
 
 ``` {#codeblock_13u_acx_bri}
+
+
 
 
 
@@ -52,6 +58,8 @@ bash -c "$(curl https://cms-agent-cn-beijing.oss-cn-beijing-internal.aliyuncs.co
 
 
 
+
+
 REGION_ID=cn-zhangjiakou VERSION=1.3.7 \
 bash -c "$(curl https://cms-agent-cn-zhangjiakou.oss-cn-zhangjiakou-internal.aliyuncs.com/release/cms_install_for_linux.sh)"
 ```
@@ -59,6 +67,8 @@ bash -c "$(curl https://cms-agent-cn-zhangjiakou.oss-cn-zhangjiakou-internal.ali
 **华北5 呼和浩特 cn-huhehaote**
 
 ``` {#codeblock_44m_3th_k00}
+
+
 
 
 
@@ -72,6 +82,8 @@ bash -c "$(curl https://cms-agent-cn-huhehaote.oss-cn-huhehaote-internal.aliyunc
 
 
 
+
+
 REGION_ID=cn-hangzhou VERSION=1.3.7 \
 bash -c "$(curl https://cms-agent-cn-hangzhou.oss-cn-hangzhou-internal.aliyuncs.com/release/cms_install_for_linux.sh)"
 ```
@@ -79,6 +91,8 @@ bash -c "$(curl https://cms-agent-cn-hangzhou.oss-cn-hangzhou-internal.aliyuncs.
 **华东2 上海 cn-shanghai**
 
 ``` {#codeblock_dio_953_i3c}
+
+
 
 
 
@@ -92,6 +106,8 @@ bash -c "$(curl https://cms-agent-cn-shanghai.oss-cn-shanghai-internal.aliyuncs.
 
 
 
+
+
 REGION_ID=cn-shenzhen VERSION=1.3.7 \
 bash -c "$(curl https://cms-agent-cn-shenzhen.oss-cn-shenzhen-internal.aliyuncs.com/release/cms_install_for_linux.sh)"
 ```
@@ -99,6 +115,8 @@ bash -c "$(curl https://cms-agent-cn-shenzhen.oss-cn-shenzhen-internal.aliyuncs.
 **中国香港 香港 cn-hongkong**
 
 ``` {#codeblock_i9r_009_0sh}
+
+
 
 
 
@@ -112,6 +130,8 @@ bash -c "$(curl https://cms-agent-cn-hongkong.oss-cn-hongkong-internal.aliyuncs.
 
 
 
+
+
 REGION_ID=us-west-1 VERSION=1.3.7 \
 bash -c "$(curl https://cms-agent-us-west-1.oss-us-west-1-internal.aliyuncs.com/release/cms_install_for_linux.sh)"
 ```
@@ -119,6 +139,8 @@ bash -c "$(curl https://cms-agent-us-west-1.oss-us-west-1-internal.aliyuncs.com/
 **美国东部1 弗吉尼亚 us-east-1**
 
 ``` {#codeblock_6zc_vrj_5dn}
+
+
 
 
 
@@ -132,6 +154,8 @@ bash -c "$(curl https://cms-agent-us-east-1.oss-us-east-1-internal.aliyuncs.com/
 
 
 
+
+
 REGION_ID=ap-southeast-1 VERSION=1.3.7 \
 bash -c "$(curl https://cms-agent-ap-southeast-1.oss-ap-southeast-1-internal.aliyuncs.com/release/cms_install_for_linux.sh)"
 ```
@@ -139,6 +163,8 @@ bash -c "$(curl https://cms-agent-ap-southeast-1.oss-ap-southeast-1-internal.ali
 **亚太东南2 悉尼 ap-southeast-2**
 
 ``` {#codeblock_nf8_o3p_bj0}
+
+
 
 
 
@@ -152,6 +178,8 @@ bash -c "$(curl https://cms-agent-ap-southeast-2.oss-ap-southeast-2-internal.ali
 
 
 
+
+
 REGION_ID=ap-southeast-3 VERSION=1.3.7 \
 bash -c "$(curl https://cms-agent-ap-southeast-3.oss-ap-southeast-3-internal.aliyuncs.com/release/cms_install_for_linux.sh)"
 ```
@@ -159,6 +187,8 @@ bash -c "$(curl https://cms-agent-ap-southeast-3.oss-ap-southeast-3-internal.ali
 **亚太东南5 雅加达 ap-southeast-5**
 
 ``` {#codeblock_ujp_vvz_gx2}
+
+
 
 
 
@@ -172,6 +202,8 @@ bash -c "$(curl https://cms-agent-ap-southeast-5.oss-ap-southeast-5-internal.ali
 
 
 
+
+
 REGION_ID=ap-northeast-1 VERSION=1.3.7 \
 bash -c "$(curl https://cms-agent-ap-northeast-1.oss-ap-northeast-1-internal.aliyuncs.com/release/cms_install_for_linux.sh)"
 ```
@@ -179,6 +211,8 @@ bash -c "$(curl https://cms-agent-ap-northeast-1.oss-ap-northeast-1-internal.ali
 **亚太南部1 孟买 ap-south-1**
 
 ``` {#codeblock_g2w_kpf_w3y}
+
+
 
 
 
@@ -192,6 +226,8 @@ bash -c "$(curl https://cms-agent-ap-south-1.oss-ap-south-1-internal.aliyuncs.co
 
 
 
+
+
 REGION_ID=eu-central-1 VERSION=1.3.7 \
 bash -c "$(curl https://cms-agent-eu-central-1.oss-eu-central-1-internal.aliyuncs.com/release/cms_install_for_linux.sh)"
 ```
@@ -202,12 +238,16 @@ bash -c "$(curl https://cms-agent-eu-central-1.oss-eu-central-1-internal.aliyunc
 
 
 
+
+
 REGION_ID=eu-west-1 VERSION=1.3.7 \ bash -c "$(curl https://cms-agent-eu-west-1.oss-eu-west-1-internal.aliyuncs.com/release/cms_install_for_linux.sh)"
 ```
 
 **中东东部 迪拜 me-east-1**
 
 ``` {#codeblock_7j8_m9u_1tx}
+
+
 
 
 
@@ -221,6 +261,8 @@ bash -c "$(curl https://cms-agent-me-east-1.oss-me-east-1-internal.aliyuncs.com/
 
 
 
+
+
 REGION_ID=cn-hangzhou VERSION=1.3.7 \
 bash -c "$(curl https://cms-agent-cn-hangzhou.oss-cn-hangzhou-internal.aliyuncs.com/release/cms_install_for_linux.sh)"
 ```
@@ -231,6 +273,8 @@ bash -c "$(curl https://cms-agent-cn-hangzhou.oss-cn-hangzhou-internal.aliyuncs.
 
 
 
+
+
 REGION_ID=cn-shanghai-finance-1 VERSION=1.3.7 \
 bash -c "$(curl https://cms-agent-cn-shanghai-finance-1.oss-cn-shanghai-finance-1-pub-internal.aliyuncs.com/release/cms_install_for_linux.sh)"
 ```
@@ -238,6 +282,8 @@ bash -c "$(curl https://cms-agent-cn-shanghai-finance-1.oss-cn-shanghai-finance-
 **华南1金融云 深圳 cn-shenzen-finance-1**
 
 ``` {#codeblock_cws_280_uuc}
+
+
 
 
 
