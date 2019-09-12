@@ -1,10 +1,12 @@
 # Java SDK使用手册 {#concept_llz_kz4_zdb .concept}
 
+本文为您介绍云监控Java SDK的相关信息。
+
 ## SDK安装 {#section_vlh_lz4_zdb .section}
 
 通过maven进行安装，需要添加的依赖如下：
 
-```
+``` {#codeblock_l3w_vl4_znl}
 <dependencies>
      <dependency>
        <groupId>com.aliyun</groupId>
@@ -28,9 +30,9 @@ Github下载地址：[https://github.com/aliyun/aliyun-openapi-java-sdk/tree/mas
 -   查询监控数据
     -   请求示例
 
-        使用时请将如下示例中的accessKey和accessSecret替换成您的Access Key。
+        使用时请将如下示例中的`accessKey`和`accessSecret`分别替换成您的AccessKey ID和AccessKey Secret。
 
-        ```
+        ``` {#codeblock_jop_hc6_dlj}
         import com.aliyuncs.DefaultAcsClient;
         import com.aliyuncs.IAcsClient;
         import com.aliyuncs.exceptions.ClientException;
@@ -72,7 +74,7 @@ Github下载地址：[https://github.com/aliyun/aliyun-openapi-java-sdk/tree/mas
 
     -   返回示例
 
-        ```
+        ``` {#codeblock_j6x_wwc_is2}
         Code:200
         Message:null
         RequestId:727B48BD-55E3-4E5D-BEF4-1D092055F7A4
@@ -164,7 +166,7 @@ Github下载地址：[https://github.com/aliyun/aliyun-openapi-java-sdk/tree/mas
 -   创建报警规则
     -   请求示例
 
-        ```
+        ``` {#codeblock_gjd_rk0_ze5}
         import com.aliyuncs.DefaultAcsClient;
         import com.aliyuncs.IAcsClient;
         import com.aliyuncs.exceptions.ClientException;
@@ -217,12 +219,12 @@ Github下载地址：[https://github.com/aliyun/aliyun-openapi-java-sdk/tree/mas
 
     -   返回示例
 
-        ```
+        ``` {#codeblock_q0c_7d4_fun}
         {
-        	"Message": "",
-        	"RequestId": "7aa25dfa-3bb9-4ed3-9704-a2d41bf67649",
-        	"Success": true,
-        	"Code": 200
+            "Message": "",
+            "RequestId": "7aa25dfa-3bb9-4ed3-9704-a2d41bf67649",
+            "Success": true,
+            "Code": 200
         }
         ```
 
