@@ -69,7 +69,6 @@ Github下载地址：[https://github.com/aliyun/aliyun-openapi-java-sdk/tree/mas
         
             }
         }
-        							
         ```
 
     -   返回示例
