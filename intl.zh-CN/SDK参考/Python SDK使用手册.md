@@ -1,18 +1,18 @@
 # Python SDK使用手册 {#concept_ec4_x1p_zdb .concept}
 
-```
-需要安装有python2.7版本。
-```
+本文为您介绍云监控Python SDK的相关信息。
+
+请确保已安装有Python2.7版本。
 
 ## 安装pip {#section_xm1_z1p_zdb .section}
 
-如果已有pip或者使用其他方案，可忽略此步骤。
+如果已有pip或者使用其它方案，可忽略此步骤。
 
 [如何安装pip](http://pip-cn.readthedocs.org/en/latest/installing.html)
 
 ## 安装cms-python-sdk的依赖 {#section_agq_3bp_zdb .section}
 
-```
+``` {#codeblock_9ee_ukc_mti}
 pip install aliyun-python-sdk-core
 pip install aliyun-python-sdk-cms
 ```
@@ -21,7 +21,7 @@ pip install aliyun-python-sdk-cms
 
 ## Code示例 {#section_h0p_jc4_0ug .section}
 
-```
+``` {#codeblock_nxb_54f_p3f}
 #!/usr/bin/env python
 #coding=utf-8
 
@@ -44,6 +44,5 @@ request.set_MetricName("CPUUtilization")
 response = client.do_action_with_exception(request)
 # python2:  print(response)
 print(str(response, encoding='utf-8'))
-			
 ```
 
